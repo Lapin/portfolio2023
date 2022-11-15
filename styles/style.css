@@ -4,9 +4,9 @@
 }
 
 body {
-    background: radial-gradient(ellipse at top, #02081d, #043214);
-    background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+    background: radial-gradient(ellipse at top, #023213, #02081d);
+    background-size: 400% 100%;
+	animation: gradient 9s ease infinite;
 	height: 100vh;
 }
 
@@ -51,7 +51,22 @@ html {
     margin: 1rem 0;
 }
 
+/* Components */
 
+.trafficLight {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin-right: 8px;
+    background-color: green;
+    border-radius: 100px;
+    -webkit-box-shadow: 0px 0px 22px -7px rgba(113,219,107,1);
+-moz-box-shadow: 0px 0px 22px -7px rgba(113,219,107,1);
+box-shadow: 0px 0px 22px -7px rgba(113,219,107,1);
+}
+
+
+/* Typograpy */
 
 .links {
     display: flex;
@@ -84,8 +99,6 @@ a:link {
     border-radius: 5px;
     color: #350637
 }
-
-/* Typograpy */
 
 .height-100 {
     line-height: 100%;
