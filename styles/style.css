@@ -4,224 +4,48 @@
 }
 
 body {
-    background: radial-gradient(ellipse at top, #023213, #02081d);
-    background-size: 400% 100%;
-	animation: gradient 9s ease infinite;
-	height: 100vh;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+    width: 420px;
+    line-height: 22px;
 }
 
 html {
+    background: linear-gradient(112.9deg, #151515 0%, rgba(21, 21, 21, 0.9) 100%);
+    height: 100vh;
+    padding: 4rem;
     font-family: 'Inter', sans-serif;
     color: aliceblue;
     letter-spacing: -0.25px;
     line-height: auto;
+    font-size: 1.125rem;
 }
 
-
-/* Containers */
-
-.globalWrapper {
-
-    padding: 4rem 6rem ;
-    height: 600px;
-    max-width: 1024px;
+.pb1 {
+    margin-bottom: 1rem;
 }
 
-.contents { 
-    max-width: 620px;
-}
-.status {
-    display: inline-block;
-    border: solid 1px white;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 0.5rem 0.75rem;
-    border-radius: 2rem;
-    margin: 1rem 0;
-}
-
-/* Components */
-
-.trafficLight {
-    display: inline-block;
-    height: 12px;
-    width: 12px;
-    margin-right: 8px;
-    background-color: green;
-    border-radius: 100px;
-    -webkit-box-shadow: 0px 0px 22px -7px rgba(113,219,107,1);
--moz-box-shadow: 0px 0px 22px -7px rgba(113,219,107,1);
-box-shadow: 0px 0px 22px -7px rgba(113,219,107,1);
-}
-
-
-/* Typograpy */
-
-.links {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    color: white;
-    text-decoration: none;
-}
-
-a:link {
-    color: white;
-  }
-  
-  a:visited {
-    color: white;
-  }
-  
-  a:hover {
-    color: white;
-  }
-  
-  a:active {
-    color: white;
-  }
-
-  .button {
-    display: inline-block;
-    padding: 14px 18px;
-    background: #FFFFFF;
-    border-radius: 5px;
-    color: #350637
-}
-
-.height-100 {
-    line-height: 100%;
-}
-
-.height-130 {
-    line-height: 130%;
+.pb2 {
+    margin-bottom: 1.75rem;
 }
 
 .bold {
     font-weight: 700;
 }
 
-.font-xl {
-    font-size: 2.5rem;
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1rem;
 }
 
-.font-lg {
-    font-size: 1.25rem;
+.linkWraper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
 }
 
-.font-rg {
-    font-size: 1.125rem;
+.icon {
+    display: block;
 }
-
-.font-sm {
-    font-size: 1rem;
-}
-
-/* Measurements */
-
-.px1 {
-    padding: 0rem 1rem;
-}
-
-.px2 {
-    padding: 0rem 2rem;
-}
-
-.px3 {
-    padding: 0rem 3rem;
-}
-
-.px4 {
-    padding: 0rem 4rem;
-}
-
-.py1 {
-    padding: 1rem 0rem;
-}
-
-.py2 {
-    padding: 2rem 0rem;
-}
-
-.py3 {
-    padding: 3rem 0rem;
-}
-
-.py4 {
-    padding: 4rem 0rem;
-}
-
-.mx1 {
-    margin: 0rem 1rem;
-}
-
-.mx2 {
-    margin: 0rem 2rem;
-}
-
-.mx3 {
-    margin: 0rem 3rem;
-}
-
-.mx4 {
-    margin: 0rem 4rem;
-}
-
-.my1 {
-    margin: 1rem 0rem;
-}
-
-.my2 {
-    margin: 2rem 0rem;
-}
-
-.my3 {
-    margin: 3rem 0rem;
-}
-
-.my4 {
-    margin: 4rem 0rem;
-}
-
-
-@media screen and (max-width: 600px) {
-    .globalWrapper {
-        padding: 1rem 2rem;
-    }
-
-    .font-xl {
-        font-size: 1.5rem;
-        line-height: 130%;
-    }
-    
-    .font-lg {
-        font-size: 1.25rem;
-    }
-    
-    .font-rg {
-        font-size: 1.125rem;
-    }
-    
-    .font-sm {
-        font-size: 1rem;
-    }
-
-    .links {
-        display: flex;
-        flex-direction: column;
-
-    }
-}
-
-  
