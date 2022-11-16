@@ -4,7 +4,7 @@
 }
 
 body {
-    width: 420px;
+    width: 430px;
     line-height: 22px;
 }
 
@@ -40,7 +40,7 @@ html {
 }
 
 .linkWraper {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     align-items: center;
     gap: 12px;
@@ -48,4 +48,19 @@ html {
 
 .icon {
     display: block;
+}
+
+a:hover {
+    background-color: #FFFFFF10;
+    padding: 8px 16px;
+    margin: -8px -16px;
+    border-radius: 100px;
+    /* transition: linear; */
+    transition-duration: 100ms;
+}
+
+.password {
+    background-color: aliceblue;
+    padding: 20px;
+    color: black;
 }
