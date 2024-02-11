@@ -5,26 +5,28 @@
 
 body {
     width: 430px;
-    line-height: 22px;
+    line-height: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 html {
-    background: linear-gradient(112.9deg, #151515 0%, rgba(21, 21, 21, 0.9) 100%);
-    
-
-
-
-
-
+    background: #E5E5E5;
     height: 100vh;
-    padding: 4rem;
+    padding: 2.125rem;
     font-family: 'Inter', sans-serif;
-    color: aliceblue;
-    letter-spacing: -0.25px;
-    line-height: auto;
-    font-size: 1.125rem;
+    letter-spacing: -1px;
+    font-size: 1.3rem;
+    font-weight: 300;
 }
-
+/* 
 .pb1 {
     margin-bottom: 1rem;
 }
@@ -62,17 +64,17 @@ a:hover {
     margin: -8px -16px;
     border-radius: 100px;
     /* transition: linear; */
-    transition-duration: 100ms;
+    /* transition-duration: 100ms;
 }
 
 .password {
     background-color: aliceblue;
     padding: 20px;
     color: black;
-}
+} */ 
 
 /* modal */
-
+/* 
 .modal {
     display: flex;
     flex-direction: column;
@@ -160,4 +162,4 @@ a:hover {
     body {
       width: auto;
     }
-  } 
+  }  */
